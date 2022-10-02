@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Quickchat – Page not found</title>
+        <link rel="stylesheet" href="/static/css/vendor/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/css/vendor/bootstrap-theme.min.css">
+        <script src="/static/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="/static/js/vendor/jquery-2.0.3.min.js"></script>
+        <script src="/static/js/vendor/bootstrap.min.js"></script>
+        <style>
+            body {font-family: "Helvetica";}
+            .page {margin-top: 40px;}
+            footer {
+                color: #555;
+                border-top: #888;
+                text-align: center;
+                font-size: 0.8em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand logo" href="http://quickchat.io">Quickchat &raquo;</a>
+                </div>
+                <div class="navbar-collapse collapse">&nbsp;</div>
+            </div>
+        </div>
+        <div class="container col-lg-12">
+            <div class="page">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="page-header"><h1><strong>Whoops</strong>, <small> we could not found the page you were looking for.</small></h1></div>
+                    <div class="panel panel-default">
+                      <div class="panel-body">
+                        <h4>Sorry, but the page you were trying to view does not exist.</h4>
+                        <h4>The most likely reason could be:
+                            <ul>
+                                <li>a mistyped address</li>
+                                <li>an out-of-date link</li>
+                            </ul>    
+                        </h4>
+                        <p>Please contact <a href="mailto:support@quickchat.io">Quickchat Support</a> if you think this might another issue.</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>Copyright &copy; 2021 quickchat.io. All Rights Reserved. | <a href="http://quickchat.io/privacy/">Privacy</a> | <a href="http://quickchat.io/terms/">Terms</a> | <a href="http://quickchat.io/blog/">Blog</a> | <a href="http://quickchat.io/jobs/">Jobs</a> | <a href="http://quickchat.io/help/">Help</a></footer>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-2238113-11', 'quickchat.io');
+          ga('send', 'pageview');
+        </script>
+    </body>
+</html>
